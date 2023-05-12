@@ -1,11 +1,12 @@
 const Banner = () => {
   return (
-    <header>
-      <div>
-        <img src="./GloboLogo.png" alt="logo" />
+    <div className="styles.globals.case-info-section-wrapper">
+      <div className="styles.globals.case-info-label-theme-toggle-btn">
+        <h3>
+          <b>Case Information</b>
+        </h3>
       </div>
-      <div>Providing houses all over the world</div>
-    </header>
+    </div>
   );
 };
 
